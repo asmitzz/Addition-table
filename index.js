@@ -24,6 +24,10 @@ plus.addEventListener('click', () => {
   }
 
   row.childNodes[0].childNodes[0].value = count;
+  row.childNodes[1].childNodes[0].value = 0;
+  row.childNodes[2].childNodes[0].value = 0;
+  row.childNodes[3].childNodes[0].value = 0;
+
   row.childNodes[1].onchange = COL1;
   row.childNodes[2].onchange = COL2;
 
